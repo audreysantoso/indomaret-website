@@ -472,7 +472,6 @@ div.company_address h4{
 	padding-bottom: 21px;
 }
 
-
 #pelayanan{
 	position: fixed;
 	right: 100px;
@@ -555,6 +554,8 @@ div.company_address h4{
 #pelayanan:active #rectangle_text{
 	color: #ffffff;
 }
+
+
 
 
 
