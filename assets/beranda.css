@@ -97,37 +97,58 @@
 	box-shadow: 0px 4px 8px rgb(169, 211, 240);
 	border-radius: 31px;
 	margin-left: 48px;
+	float: left;
 	cursor: pointer;
 }
 
-.cards img{
-	position: absolute;
-	width: 59.05px;
-	top: 75.27px;
-	margin-left: -28px;
+.cards .image_container{
+	width: 59px;
+	height: 56px;
+	margin-left: 110px;
+	margin-top: 75px;
+}
+
+.cards .image_container img{
+	width: 59px;
+}
+
+.cards:nth-child(3) .image_container img{
+	padding-top: 6px;
 }
 
 #active_berita,#active_layanan,#active_kartu,#active_produk{
 	display: none;
-	margin-left: 110px;
+	position: relative;
+	top: -65px;
 }
 
-#cards button.cards hr{
+#active_kartu{
+	padding-top: 6px;
+	padding-bottom: 11px;
+	position: relative;
+	top: -52px;
+}
+
+#active_produk{
+	top: -62px;
+}
+
+#cards div.cards hr{
 	border-top: #FECF22 3px solid;
-	border-bottom: 0px;
-	width: 59px;
-	position: absolute;
-	top: 200px;
-	margin-left: 111px;
+	width: 60px;
+	margin-top: 5px;
+	margin-left: 109px;
 }
 
 .cards h3{
-	margin-top: -40px;
+	margin-top: 24px;
+	width: 277px;
+	text-align: center;
 }
 
 .cards p{
-	position: absolute;
-	top: 230px;
+	text-align: center;
+	margin-top: 27px;
 	width: 180px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -185,10 +206,12 @@
 
 #diamond_container{
 	position: relative;
+	top: 400px;
 }
 
 .mid_gradient_background{
 	position: absolute;
+	left: 0;
 	top: 120px;
 	width: 100%;
 }
