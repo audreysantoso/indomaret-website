@@ -392,14 +392,14 @@ input[type=text]#cari_gerai_terdekatmu{
   	font-size: 17px;
   	position: relative;
   	margin-top: 18px;
-  	left: -45px;
+  	left: 105px;
 }
 
 #hover_help{
 	width: 25px;
 	position: relative;
-	left: 410px;
-	top: 32px;
+	left: 400px;
+	top: -33px;
 }
 
 #hover_location img{
@@ -458,8 +458,8 @@ button.cari_kami{
 	text-align: center;
 	color: #FFFFFF;
 	cursor: pointer;
-	margin-left: 112px;
-	margin-top: 28px;
+	margin-left: 105px;
+	margin-top: -3px;
 }
 
 button.cari_kami:hover{
