@@ -318,8 +318,16 @@ div.menu_drop:last-child:active{
 	left: 171px;
 }
 
+#search_container{
+	position: relative;
+	float: right;
+	width: 207px;
+  	height: 35px;
+  	margin-right: 80px;
+  	top: -50px;
+}
+
 input[type=text] {
-  	float: right;
   	width: 207px;
   	height: 35px;
   	padding-left: 15px;
@@ -327,20 +335,17 @@ input[type=text] {
   	border-radius: 18.5px;
   	color: #000000;
   	font-size: 17px;
-  	margin-right: 80px;
-	margin-top: -50px;
 }
 
 #search{
-	float: right;
   	padding: 6px 22px;
  	top: 70px;
  	width: 15px;
   	border: none;
   	cursor: pointer;
-  	z-index: 4;
-  	margin-left: 1290px;
-  	margin-top: -65px;
+  	position: absolute;
+  	left: 165px;
+  	top: 3px;
 }
 
 footer{
