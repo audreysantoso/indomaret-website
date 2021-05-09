@@ -1,5 +1,9 @@
+#ads{
+	width: 100%;
+}
+
 #ads img.hero_banner{
-	width: 1440px;
+	width: 100%
 }
 
 #arrow_buttons{
