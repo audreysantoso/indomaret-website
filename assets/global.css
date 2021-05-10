@@ -323,7 +323,7 @@ div.menu_drop:last-child:active{
 	float: right;
 	width: 207px;
   	height: 35px;
-  	margin-right: 80px;
+  	margin-right: 90px;
   	top: -50px;
 }
 
@@ -382,6 +382,7 @@ footer{
 .newsletter{
 	float: right;
 	position: relative;
+	left: 14px;
 }
 
 .newsletter h4{
