@@ -27,7 +27,7 @@ button{
 }
 
 h1{
-	font-weight: 700;
+	font-weight: 600;
 	color: rgba(0, 0, 0, 0.9);
 	font-size: 40px;
 	line-height: 59px;
@@ -382,7 +382,6 @@ footer{
 .newsletter{
 	float: right;
 	position: relative;
-	left: 14px;
 }
 
 .newsletter h4{
